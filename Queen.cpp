@@ -48,6 +48,16 @@ bool Queen::checkVertical(int col, int row, Tile board[8][8])
 
 bool Queen::checkHorizontal(int col, int row, Tile board[8][8])
 {
+	/*
+	int x
+	do{
+	  x=x++
+	  if [0][x] != 'Q'
+	     return 'true'
+	  else 
+	     return 'false'
+	}while x != 8
+	*/
     return(y == row);
 }
 
